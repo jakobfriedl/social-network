@@ -1,0 +1,7 @@
+User der Datenbank sind z.B:
+
+Max Mustermann, 
+Martina Muserfrau,
+Jakob Friedl
+
+Die Usernamen und Passwörter sind für Testzwecke meistens die Vornamen der User

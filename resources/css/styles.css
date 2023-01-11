@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.bg-color{
+    background: rgb(89,89,89);
+    background: linear-gradient(180deg, rgba(89,89,89,1) 0%, rgba(191,191,191,1) 51%, rgba(219,219,219,1) 100%);
+}
+h1{
+    font-size: 4em;
+    font-weight: bolder;
+}
+h1 a{
+    color: black; 
+}
+h1 a:hover{
+    color: black; 
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none; 
+}
+.flex{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+.btn-style-1{
+    background-color: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    min-width: 25%; 
+    transition: 0.3s;
+    font-weight: bold; 
+}
+.btn-style-3{
+    background-color: rgb(31, 172, 172);
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    min-width: 25%; 
+    transition: 0.3s;
+}
+.btn-color-1:hover{
+    background-color: rgb(59, 119, 231); 
+}
+.btn-color-2:hover{
+    background-color: rgb(31, 172, 172); 
+}
+.btn-style-2{
+    background-color: rgb(94, 94, 94);
+    color: rgba(191,191,191,1);
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    min-width: 15%; 
+    transition: 0.3s;
+}
+.dd-hover:hover{ /*Dropdown*/
+    color: rgb(31, 172, 172); 
+    font-weight: bold;
+}
+/*modal nav*/
+#tabContent li a{
+    color: black;
+    font-weight: bold;
+    padding: 0em 1em;
+    margin-bottom: 3px; 
+}
+#tabContent li a:hover{
+    color: rgb(31, 172, 172); 
+}
+.bb{ /*border bottom*/
+    border-bottom: 4px solid black;
+}
+.link-hover:hover
+{
+    color: rgb(31, 172, 172); 
+}
+.message-left
+{
+    background-color: rgb(31, 172, 172);
+    border: 1px solid rgb(19, 112, 112);
+    color: white; 
+    border-radius: 1em;
+}
+.message-right
+{
+    background-color: rgb(59, 119, 231);
+    border: 1px solid rgb(41, 82, 160);
+    color: white; 
+    border-radius: 1em;
+}
+
